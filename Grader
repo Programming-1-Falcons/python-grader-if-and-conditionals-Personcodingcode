@@ -1,0 +1,14 @@
+total_points= int(input("How many points possible? :"))
+earned_points= int(input("How many points earned? :"))
+points = earned_points / total_points
+grade = points * 100
+if grade <= 50:
+  print("F")
+elif grade <= 60:
+  print("D")
+elif grade <= 75:
+  print("C")
+elif grade <= 88:
+  print("B")
+else:
+  print("A")
